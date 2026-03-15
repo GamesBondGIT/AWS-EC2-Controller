@@ -115,6 +115,3 @@ Jash / GamesBond
 </p>
 
 ---
-
-Example:
-MIT License
