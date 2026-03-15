@@ -1,54 +1,120 @@
 <p align="center">
-<img src="screens/T2VBanner.jpg" width="100%">
+  <a href="https://github.com/GamesBondGIT/AWS-EC2-Controller/releases/download/awsec2ctrl/awsec2controller-v1.0-setup.exe">
+    <img src="screens/awsec2controller-logo.png" alt="Download AWS EC2 Controller Installer" width="120">
+  </a>
 </p>
-
----
-
-### 🚀 T2V-v1 — Text-to-Voice Desktop Application
----
-### *Script Refinement (ChatGPT) → Voice Mapping → Multi-Voice Audio Generation (ElevenLabs)*
----
-
-# 🚀 Overview
-
-**T2V-v1** is a fully standalone **Windows desktop application** that transforms written scripts into final mixed **multi-voice audio** using:
-
-### ✔ GPT-based script refinement
-
-### ✔ Automatic character extraction
-
-### ✔ Voice selection (with Auto-Memory)
-
-### ✔ ElevenLabs text-to-speech
-
-### ✔ Final MP3 (320kbps) + WAV (48kHz PCM) outputs
-
-### ✔ Clean desktop interface
-
-The app is designed for **animation teams, YouTubers, storytellers, and production studios** who want fast, consistent, natural-sounding voiceovers.
-
----
 
 <p align="center">
-  <img src="screens/T2V-Screens.gif" width="800" alt="App Demo">
+  <img src="screens/awsec2controller-banner.jpg" alt="AWS EC2 Controller Banner" width="100%">
+</p>
+
+<h1 align="center">AWS EC2 Controller</h1>
+
+<p align="center">
+  A modern desktop application to <b>view, manage, start, stop, and monitor AWS EC2 instances</b> with a clean interface built using <b>PySide6</b>.
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python">
+  <img src="https://img.shields.io/badge/PySide6-Desktop_App-green?style=for-the-badge&logo=qt">
+  <img src="https://img.shields.io/badge/AWS-EC2-orange?style=for-the-badge&logo=amazonec2controller">
+  <img src="https://img.shields.io/badge/v1.0-green?style=for-the-badge&logo=v1.0">
+  <img src="https://img.shields.io/badge/Platform-Windows%2010%20%26%2011-lightgrey?style=for-the-badge">
 </p>
 
 ---
 
-# 📜 Usage Terms & Licensing
+## Overview
 
-### This project is intended for personal and individual use only. 
-By downloading or using this software/content, you agree to the following:
-* **Personal Use**: You are free to use this for your own personal projects and enjoyment.
-* **No Redistribution**: You may not re-upload, host, or redistribute these files on other platforms without explicit written permission.
-* **Commercial Use**: Any use for profit, business, or commercial enterprise is strictly prohibited without a commercial license.
+AWS EC2 Controller is a professional Windows desktop app that simplifies EC2 instance management for developers, administrators, and cloud users.
 
-📧 **Contact**: For commercial licensing inquiries or permission requests, please contact: **GAMESBOND**
+Instead of opening the AWS Console every time, this app gives you a fast and focused way to:
+
+- View EC2 instances in a selected AWS region
+- Start and stop instances quickly
+- Check live instance status
+- Refresh instance data in the background
+- Search instances by name or ID
+- Work with AWS credentials from a user-friendly interface
+
+The app is designed for users who want a lightweight, clean, and efficient EC2 control panel on their desktop.
 
 ---
 
-# 🙌 Credits
+## Features
 
-Built by **GamesBond**
+- Clean desktop UI built with PySide6
+- AWS CLI detection and setup guidance
+- AWS credentials validation
+- Region selection support
+- Start / Stop EC2 instances
+- Background refresh for live status updates
+- Search and filter instance list
+- Startup checks for AWS CLI and credentials
+- Professional Windows packaging support with PyInstaller and Inno Setup
+---
 
-Powered by **ElevenLabs** + **OpenAI GPT**
+## Why Use AWS EC2 Controller?
+
+Managing EC2 instances through the browser can be slow for simple day-to-day tasks.
+AWS EC2 Controller provides a faster workflow with a dedicated desktop experience.
+
+Ideal for:
+- Users managing test AWS servers
+- Teams that frequently start and stop EC2 instances
+- Users who want a lightweight EC2 dashboard
+- Personal AWS environments where quick access matters
+---
+
+## Tech Stack
+
+- Python
+- PySide6
+- AWS CLI
+- PyInstaller
+- Inno Setup
+---
+
+## Installation
+
+Download Installer
+Download the latest Windows installer from the releases section and install it normally.
+
+---
+
+## AWS Requirements
+Example permissions may include:
+
+- ec2:DescribeInstances
+- ec2:StartInstances
+- ec2:StopInstances
+- sts:GetCallerIdentity
+---
+
+## Vision
+
+The goal of AWS EC2 Controller is to deliver a smooth, desktop-first AWS EC2 management experience that is simple, reliable, and fast.
+
+This project focuses on:
+- usability
+- clean design
+- practical EC2 controls
+- professional Windows distribution
+---
+
+## Author
+
+Jash / GamesBond
+
+---
+
+## Screenshots
+
+<p align="center">
+  <img src="screens/awsec2screens.gif" alt="AWS EC2 Controller Demo" width="500">
+</p>
+
+---
+
+Example:
+MIT License
