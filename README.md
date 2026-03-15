@@ -17,8 +17,7 @@
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10%2B-blue?style=for-the-badge&logo=python">
   <img src="https://img.shields.io/badge/PySide6-Desktop_App-green?style=for-the-badge&logo=qt">
-  <img src="https://img.shields.io/badge/AWS-EC2-orange?style=for-the-badge&logo=amazonec2controller">
-  <img src="https://img.shields.io/badge/v1.0-green?style=for-the-badge&logo=v1.0">
+  <img src="https://img.shields.io/badge/AWSEC2Controller-v1.0-orange?style=for-the-badge&logo=amazonec2controller">
   <img src="https://img.shields.io/badge/Platform-Windows%2010%20%26%2011-lightgrey?style=for-the-badge">
 </p>
 
@@ -66,29 +65,11 @@ Ideal for:
 - Personal AWS environments where quick access matters
 ---
 
-## Tech Stack
-
-- Python
-- PySide6
-- AWS CLI
-- PyInstaller
-- Inno Setup
----
-
 ## Installation
 
 Download Installer
 Download the latest Windows installer from the releases section and install it normally.
 
----
-
-## AWS Requirements
-Example permissions may include:
-
-- ec2:DescribeInstances
-- ec2:StartInstances
-- ec2:StopInstances
-- sts:GetCallerIdentity
 ---
 
 ## Vision
@@ -101,13 +82,6 @@ This project focuses on:
 - practical EC2 controls
 - professional Windows distribution
 ---
-
-## Author
-
-Jash / GamesBond
-
----
-
 ## Screenshots
 
 <p align="center">
@@ -115,3 +89,21 @@ Jash / GamesBond
 </p>
 
 ---
+
+## Usage Terms & Licensing
+
+This project is intended for **personal and individual use only**.
+
+By downloading or using this software/content, you agree to the following:
+
+- **Personal Use:** You may use this for your own personal projects and enjoyment.
+- **No Redistribution:** You may not re-upload, host, or redistribute these files on other platforms without explicit written permission.
+- **Commercial Use:** Any use for profit, business, or commercial enterprise is strictly prohibited without a commercial license.
+
+**Contact:** For commercial licensing inquiries or permission requests, contact **GAMESBOND**.
+
+---
+
+## Credits
+
+Built by **Jash aka GamesBond**
